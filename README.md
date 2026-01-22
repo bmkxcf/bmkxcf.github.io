@@ -1,1 +1,1 @@
-bmkxcf.fitjub.io
+bmkxcf.github.io
