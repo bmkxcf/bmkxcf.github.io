@@ -1,7 +1,7 @@
 h1{
      color:#283593;
-    font-size: 52px;
-    font-family: 'Montserrat', sans-serif;
+     font-size: 52px;
+     font-family: 'Montserrat', sans-serif;
   }
 h2{
     color:#283593;
@@ -9,8 +9,9 @@ h2{
     font-family: 'Montserrat', sans-serif;
   }
 p{
-    color:rgb(14, 142, 255);
+    color:#64B5F6;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
  }
 div{
     color:rgb(174,234,0);
