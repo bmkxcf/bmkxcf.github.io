@@ -68,6 +68,25 @@ div{
     color:#AEEA00;
     font-size: 16px;
   }
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.logo-mark {
+  background-color: #283593;   
+  color: #E8ECF9;              
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;          
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.logo-text {
+  color: #283593;
+  font-size: 1rem;
+  font-weight: 600;
+}
 blockquote{
     color:#64B5F6;
     font-size: 1.2rem;
