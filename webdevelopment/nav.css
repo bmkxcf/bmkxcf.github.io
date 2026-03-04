@@ -1,0 +1,25 @@
+.nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 1rem;
+    padding: 0 1rem;
+}
+.nav a{
+    color: #283593;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+.nav a:hover{
+    color: #AEEA00;
+}
+.site-logo img {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  height: 60px;
+  width: auto;
+
+}
