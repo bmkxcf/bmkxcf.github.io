@@ -131,7 +131,7 @@ body {
     font-size: 1rem;
     text-decoration: none;
     font-family: 'Merriweather', serif;
-    border: 2px solid #283593; /* border around the link */
+    border: 2px solid #283593; 
     border-radius: 8px; 
 }
 .btn:hover {
