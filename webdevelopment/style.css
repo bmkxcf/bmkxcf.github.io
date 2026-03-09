@@ -54,6 +54,12 @@ h2{
     color:#283593;
     font-size: 30px; 
     font-family: 'Montserrat', sans-serif;
+    text-indent: 4rem;
+  }
+  h3{
+    color:#283593;
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
     text-indent: 2rem ;
   }
 p{
