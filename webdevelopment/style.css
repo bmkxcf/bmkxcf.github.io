@@ -133,12 +133,46 @@ body {
     background-color: #E8ECF9;
 }
 .resource-card {
-  background-color: #E8ECF9;
-  border: 2px solid #283593;
-  border-radius: 10px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
+    background-color: #E8ECF9;
+    border: 2px solid #283593;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 div a{
     color: #283593;
+}
+.media {
+    display: flex;
+    align-items: center;      
+    gap: 4rem;                
+    justify-content: center;  
+    margin: 2rem 0;
+    padding: 2rem;
+}
+.headshot {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.45);
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #283593;
+}
+.headshot:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+.mymovie video {
+    width: 420px;            
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.45);
+    border: 3px solid #283593;
+}
+.mymovie figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #444;
 }
