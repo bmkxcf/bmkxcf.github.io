@@ -184,14 +184,19 @@ div a{
     @page {
         margin: 1in;
     }
-    .about-page header, h2, nav, .media, .resume-link, footer img, footer {
+    .about-page header, h2, nav, .media, .resume-link, footer img {
         display: none !important;
     }
-    .about-page footer::before{
+   .about-page footer {
+        visibility: hidden !important;
+   }
+    .about-page footer::before {
         content: "Kaestner";
         visibility: visible;
         font-family: sans-serif;
         color: black;
+        display: block;
+        margin-top: 1rem;
     }
     .about-page p:first-of-type::first-letter{
         all: unset;
