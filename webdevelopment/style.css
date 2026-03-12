@@ -181,7 +181,7 @@ div a{
         font-family: sans-serif !important;
         color: black !important;
     }
-    .about-page {
+    @page {
         margin: 1in;
     }
     .about-page header, h2, nav, .media, .resume-link, footer img{
@@ -190,7 +190,7 @@ div a{
     .about-page footer {
         visibility: hidden;
     }
-    .about-page footer ::before{
+    .about-page footer::before{
         content: "Kaestner";
         visibility: visible;
         font-family: sans-serif;
