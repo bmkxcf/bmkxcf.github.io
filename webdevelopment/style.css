@@ -184,7 +184,12 @@ div a{
     @page {
         margin: 1in;
     }
-    .about-page header, h2, nav, .media, .resume-link, footer img{
+    .about-page header,
+    .about-page h2,
+    .about-page nav,
+    .about-page .media,
+    .about-page .resume-link,
+    .about-page footer img {
         display: none !important;
     }
     .about-page footer {
