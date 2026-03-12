@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    border: 4px;
+    border: #000000;
+}
+.list{
+    display: flex;
+    list-style: circle;
+    color: #64B5F6;
+    font-family: 'Merriweather', sans-serif;
+    font-size: large;
+    padding: 0;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.list :hover{
+    color: #000000;
+}
+.resume-link { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.resume-link a {
+    display: inline-block;    
+    padding: 10px 20px;       
+    margin: 10px 0;           
+    background-color: #AEEA00; 
+    color: #283593;          
+    border: 2px solid #283593; 
+    border-radius: 8px;        
+    text-decoration: none;     
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.resume-link a:hover {
+    background-color: #E8ECF9; 
+}
+h1{
+    color:#283593;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+h2{
+    color:#283593;
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 4rem;
+  }
+  h3{
+    color:#283593;
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 2rem ;
+  }
+p{
+    color:#000000;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem; 
+}
+p:first-of-type::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #283593;
+}
+
+p:nth-of-type(even) { 
+    text-indent: 2rem; 
+}
+div{
+    font-family: 'Merriweather', sans-serif;
+    color:#AEEA00;
+    font-size: 16px;
+}
+blockquote{
+    color:#64B5F6;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+}  
+body { 
+    background: linear-gradient(to bottom, #E8ECF9, #F8FAFC); 
+}
+.hero {
+    background:url("https://images.unsplash.com/photo-1746468658999-30f6a7a8518d?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")no-repeat center center/cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E8ECF9;
+    text-align: center;
+}
+.hero-content h1{
+    color:#283593;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin: 0 0 1rem 0;
+}
+.hero-content p{
+    color:#64B5F6;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Merriweather', sans-serif;  
+    background-color:#E8ECF9; 
+}
+.hero-content {
+    background-color:#E8ECF9;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.btn {
+    background-color: #AEEA00;
+    color: #283593;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    border: 2px solid #283593; 
+    border-radius: 8px; 
+}
+.btn:hover {
+    background-color: #E8ECF9;
+}
+.resource-card {
+    background-color: #E8ECF9;
+    border: 2px solid #283593;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+div a{
+    color: #283593;
+}
+.media {
+    display: flex;
+    align-items: center;      
+    gap: 4rem;                
+    justify-content: center;  
+    margin: 2rem 0;
+    padding: 2rem;
+}
+.headshot {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.45);
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #283593;
+}
+.headshot:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+.mymovie video {
+    width: 420px;            
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.45);
+    border: 3px solid #283593;
+}
+
+.mymovie figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #444;
+}
+@media print{
+    .about-page * {
+        font-family: sans-serif !important;
+        color: black !important;
+    }
+    .about-page {
+        margin: 1in;
+    }
+    .about-page header, h2, nav, .media, .resume-link, footer img{
+        display: none !important;
+    }
+    .about-page footer {
+        visibility: hidden;
+    }
+    .about-page footer ::before{
+        content: "Kaestner";
+        visibility: visible;
+        font-family: sans-serif;
+        color: black;
+    }
+    .about-page p:first-of-type::first-letter{
+        all: unset;
+    }
+}
