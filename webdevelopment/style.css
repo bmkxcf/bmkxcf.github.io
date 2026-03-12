@@ -195,6 +195,7 @@ div a{
         visibility: visible;
         font-family: sans-serif;
         color: black;
+        margin: 1in;
     }
     .about-page p:first-of-type::first-letter{
         all: unset;
