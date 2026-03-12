@@ -176,3 +176,27 @@ div a{
     font-style: italic;
     color: #444;
 }
+@media print{
+    .about-page * {
+        font-family: sans-serif !important;
+        color: black !important;
+    }
+    @page{
+        margin: 1in;
+    }
+    .about-page header, h2, nav, .media, .resume-link, footer img{
+        display: none !important;
+    }
+    .about-page footer {
+        visibility: hidden;
+    }
+    .about-page footer ::before{
+        content: "Kaestner";
+        visibility: visible;
+        font-family: sans-serif;
+        color: black;
+    }
+    .about-page p:first-of-type::first-letter{
+        all: unset;
+    }
+}
