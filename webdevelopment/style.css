@@ -181,15 +181,10 @@ div a{
         font-family: sans-serif !important;
         color: black !important;
     }
-    @page {
+    .about-page {
         margin: 1in;
     }
-    .about-page header,
-    .about-page h2,
-    .about-page nav,
-    .about-page .media,
-    .about-page .resume-link,
-    .about-page footer img {
+    .about-page header, h2, nav, .media, .resume-link, footer img {
         display: none !important;
     }
     .about-page footer {
