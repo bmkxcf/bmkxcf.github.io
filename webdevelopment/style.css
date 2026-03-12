@@ -184,11 +184,8 @@ div a{
     .about-page {
         margin: 1in;
     }
-    .about-page header, h2, nav, .media, .resume-link, footer img {
+    .about-page header, h2, nav, .media, .resume-link, footer img, footer {
         display: none !important;
-    }
-    .about-page footer {
-        visibility: hidden;
     }
     .about-page footer::before{
         content: "Kaestner";
