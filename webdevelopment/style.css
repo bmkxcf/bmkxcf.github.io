@@ -181,7 +181,7 @@ div a{
         font-family: sans-serif !important;
         color: black !important;
     }
-    @page{
+    .about-page {
         margin: 1in;
     }
     .about-page header, h2, nav, .media, .resume-link, footer img{
