@@ -320,11 +320,37 @@ div a{
     box-sizing: border-box;     
 }
 @media (max-width: 768px) {
+
+    /* Make grid single column */
     .about-page main {
-        grid-template-columns: 1fr;   
+        grid-template-columns: 1fr;
+        padding: 1rem;
     }
+
+    /* Make media section responsive */
     .about-page .media {
-        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    /* Make headshot responsive */
+    .headshot {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Make video responsive */
+    .mymovie video {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* Reduce padding on text boxes */
+    .about-page p {
+        padding: 0.75rem;
     }
 }
 .about-page p {
