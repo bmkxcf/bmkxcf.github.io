@@ -319,6 +319,14 @@ div a{
     margin: 0 auto;         
     box-sizing: border-box;     
 }
+.about-page .media {
+    padding: 1.5rem;
+    margin: 1rem ;
+    background-color: #F0F4FF;
+    border: 2px solid #283593;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
 @media (max-width: 768px) {
 
     /* Make grid single column */
@@ -367,14 +375,6 @@ div a{
     border: 2px solid #283593;
     border-radius: 10px;
     display: block;
-}
-.about-page .media {
-    padding: 1.5rem;
-    margin: 1rem ;
-    background-color: #F0F4FF;
-    border: 2px solid #283593;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 .about-page .resume-link {
     padding: 1rem;
